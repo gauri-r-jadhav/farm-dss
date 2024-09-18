@@ -2,6 +2,7 @@ spring:
   datasource:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/farmdss?currentSchema=public
+#    url: jdbc:postgresql://52.66.188.149:5432/product?currentSchema=public
     username: postgres
     password: postgres
     hikari:
